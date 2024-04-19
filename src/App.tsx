@@ -1,8 +1,18 @@
-import { Button } from "./components/ui/button";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Enroll from "./pages/Enroll";
 
 const App = () => {
   return (
-    <><Button>Click Me</Button></>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/enroll" element={<Enroll />} />
+      </Routes>
+
+    </>
   )
 };
 
