@@ -37,6 +37,9 @@ const routeList: RouteProps[] = [
   }
 ];
 
+import Logo from "../../assets/CareerConnect.svg";
+
+
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
@@ -46,9 +49,13 @@ export const Navbar = () => {
           <NavigationMenuItem className="font-bold flex mr-auto">
             <Link
               to="/"
-              className="ml-2 font-bold text-xl flex"
+              className="ml-2 font-bold text-xl flex justify-center items-center gap-1"
             >
-              CareerConnect
+              <img
+                src={Logo}
+                className="size-14 dark:hidden"
+              />
+              <span className="hidden dark:block  sm:block">CareerConnect</span>
             </Link>
           </NavigationMenuItem>
 
@@ -71,7 +78,11 @@ export const Navbar = () => {
 
               <SheetContent side={"left"}>
                 <SheetHeader>
-                  <SheetTitle className="font-bold text-xl">
+                  <SheetTitle className="font-bold text-xl flex justify-start items-center">
+                    <img
+                      src={Logo}
+                      className="size-14 hidden"
+                    />
                     CareerConnect
                   </SheetTitle>
                 </SheetHeader>
