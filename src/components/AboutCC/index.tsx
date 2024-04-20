@@ -1,4 +1,4 @@
-import { Card, CardDescription, CardHeader, CardTitle } from "../ui/card";
+import { Card, CardHeader, CardTitle } from "../ui/card";
 // import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons";
 // import cubeLeg from "../assets/cube-leg.png";
 import Image from "../../assets/AboutCC-2.jpeg";
@@ -57,7 +57,7 @@ export const AboutCC = () => {
           </p>
 
           <div className="flex flex-col gap-8">
-            {aboutList.map(({ icon, title, description }: AboutProps) => (
+            {aboutList.map(({ icon, title }: AboutProps) => (
               <Card key={title}>
                 {/* <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4"> */}
                 <CardHeader className="flex md:flex-row justify-start items-center gap-4">
