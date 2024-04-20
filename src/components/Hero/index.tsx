@@ -15,7 +15,7 @@ export default function Hero() {
               Holding Your Hand From Preparation To Placement
             </h1>
             {/* <p className="mx-auto max-w-[700px] text-gray-50 md:text-xl dark:text-gray-400"> */}
-            <p className="mx-auto max-w-[700px]  md:text-xl dark:text-gray-400">
+            <p className="mx-auto max-w-[700px] sm:text-xl dark:text-gray-400">
               Learn the latest technologies and frameworks to build stunning web applications. Enroll in our
               comprehensive course today.
             </p>
