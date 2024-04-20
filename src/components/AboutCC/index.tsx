@@ -19,13 +19,13 @@ const aboutList: AboutProps[] = [
     icon: <Tick />,
   },
   {
-    title: "Project Management",
+    title: "Customized support for navigating early career stages.",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
     icon: <Tick />,
   },
   {
-    title: "Task Automation",
+    title: "Aligns upskilling with clear career growth paths.",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
     icon: <Tick />,
