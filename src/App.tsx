@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Enroll from "./pages/Enroll";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/enroll" element={<Enroll />} />
       </Routes>
       <Footer />
+      <ScrollToTop />
     </>
   )
 };
