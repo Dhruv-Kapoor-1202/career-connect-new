@@ -6,6 +6,7 @@ import Course from "./pages/Course";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { ScrollToTop } from "./components/ScrollToTop";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/enroll" element={<Enroll />} />
         <Route path="/course" element={<Course />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
       <ScrollToTop />
