@@ -1,4 +1,5 @@
-import { Button } from "../ui/button";
+import { Link } from "react-router-dom";
+import { buttonVariants } from "../ui/button";
 
 export const CtaOne = () => {
   return (
@@ -24,13 +25,18 @@ export const CtaOne = () => {
         </div>
 
         <div className="space-y-4 lg:col-start-2">
-          <Button className="w-full md:mr-4 md:w-auto">Enroll Now</Button>
-          <Button
-            variant="outline"
-            className="w-full md:w-auto"
+          <Link
+            to="/enroll"
+            className={`w-full md:mr-4 md:w-auto ${buttonVariants({ variant: "default" })} `}
+          >
+            Enroll Now
+          </Link>
+          <Link
+            to="/about"
+            className={`w-full md:w-auto ${buttonVariants({ variant: "outline" })}`}
           >
             Learn More
-          </Button>
+          </Link>
         </div>
       </div>
     </section>

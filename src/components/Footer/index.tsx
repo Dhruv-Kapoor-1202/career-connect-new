@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -6,12 +7,12 @@ export const Footer = () => {
 
       <section className="container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
         <div className="col-span-full xl:col-span-2">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="font-bold text-xl flex"
           >
             CareerConnect
-          </a>
+          </Link>
         </div>
 
         <div className="flex flex-col gap-2">
@@ -78,21 +79,21 @@ export const Footer = () => {
           </div>
 
           <div>
-            <a
-              href="#"
+            <Link
+              to="/course"
               className="opacity-60 hover:opacity-100"
             >
               Course
-            </a>
+            </Link>
           </div>
 
           <div>
-            <a
-              href="#"
+            <Link
+              to="/enroll"
               className="opacity-60 hover:opacity-100"
             >
               Pricing
-            </a>
+            </Link>
           </div>
         </div>
 
