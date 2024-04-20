@@ -94,7 +94,7 @@ export const EightSteps = () => {
           {steps.map(({ index, title, description, icon }: StepsProps) => (
             <Card
               key={index}
-              className="bg-muted/50 relative mt-8 flex flex-col justify-start items-center p-10 duration-300 hover:bg-primary/5 hover:"
+              className="bg-muted/50 relative mt-8 flex flex-col justify-start items-center p-4 sm:p-10 duration-300 hover:bg-primary/5 hover:"
             >
               <CardHeader className="mt-8 flex justify-center items-center pb-2">
                 {/* <div className="absolute -top-12 rounded-full w-24 h-24 bg-secondary ring flex items-center justify-center"> */}
@@ -109,7 +109,7 @@ export const EightSteps = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-muted-foreground text-xl mt-4 mb-8">{description}</CardDescription>
+                <CardDescription className="text-muted-foreground text-xl mt-4 mb-8 text-left sm:text-center">{description}</CardDescription>
               </CardContent>
             </Card>
           ))}
