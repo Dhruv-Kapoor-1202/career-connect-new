@@ -14,33 +14,33 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "This is some Sample Text.",
-    answer: "Some more Sample text. Some more wild Sample text.",
+    question: "Can I choose a flexible time to complete the career connect program?",
+    answer: "Some parts of the programs are flexible whereas, coaching sessions are scheduled, which we expect you to follow.",
     value: "item-1",
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    question: "What is the usual timeline for seeing results and progress in my career after completing the Career Connect course?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "(Within 60-90 days) usual recruitment process time",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
+      "Are there any additional costs beyond the stated course charges for materials, resources, or assessments? ",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+      "No hidden charges",
     value: "item-3",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Are there any discounts or promotions currently available for the Career Connect program?",
+    answer: "Yes we have discounts occassionally.",
     value: "item-4",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
+      " How does Career Connect ensure my job search is chaos-free, especially for freshers?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "A: We understand the unique challenges freshers face. At Career Connect, our method involves personalized strategies, easy-to-follow steps,, making your job search stress-free.",
     value: "item-5",
   },
 ];
