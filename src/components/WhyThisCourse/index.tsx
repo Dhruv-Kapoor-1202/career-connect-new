@@ -7,7 +7,7 @@ const WhyThisCourse = () => {
       <h2
         className="text-3xl md:text-4xl font-bold"
       >
-        About the Course
+        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">Why{" "}</span>This Course
       </h2>
 
       <h3

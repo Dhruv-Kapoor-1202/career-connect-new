@@ -7,7 +7,7 @@ const CourseHeader = () => {
   return (
     <section className='container text-center py-24'>
 
-      <header className="bg-primary  flex flex-col-reverse md:flex-row items-start justify-start md:items-center md:justify-between rounded-[30px] w-full overflow-hidden">
+      <header className="bg-gradient-to-br from-primary/70 via-primary/90 to-primary/75  flex flex-col-reverse md:flex-row items-start justify-start md:items-center md:justify-between rounded-[30px] w-full overflow-hidden">
         {/* Main Content Container */}
         <div className="flex items-start justify-start py-11 px-7 sm:px-11 w-full">
           <div className="text-white text-start text-lg space-y-2 flex flex-col gap-6 justify-start items-start">

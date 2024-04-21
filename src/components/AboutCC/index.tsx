@@ -58,7 +58,7 @@ export const AboutCC = () => {
 
           <div className="flex flex-col gap-8">
             {aboutList.map(({ icon, title }: AboutProps) => (
-              <Card key={title}>
+              <Card key={title} className="bg-muted/50">
                 {/* <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4"> */}
                 <CardHeader className="flex md:flex-row justify-start items-center gap-4">
                   <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
