@@ -1,4 +1,9 @@
-import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
+import {
+  Card,
+  // CardContent,
+  CardHeader,
+  CardTitle
+} from "../ui/card";
 
 Card
 import { Steps, Response, Presentation } from "../icons";
@@ -8,6 +13,27 @@ interface FeatureProps {
   title: string;
   description: string;
 }
+
+// const features: FeatureProps[] = [
+//   {
+//     icon: <Steps />,
+//     title: "Sharpen Your Skills and Answers",
+//     description:
+//       "Combines mastering your art and practicing responses.",
+//   },
+//   {
+//     icon: <Response />,
+//     title: "Craft Engaging Responses",
+//     description:
+//       "Tailor your narrative to each specific job description.",
+//   },
+//   {
+//     icon: <Presentation />,
+//     title: "Project Confidence and Polish",
+//     description:
+//       "Combines confidence and professional presence.",
+//   }
+// ];
 
 const features: FeatureProps[] = [
   {
@@ -51,7 +77,8 @@ export const Blueprint = () => {
       </p> */}
 
       <div className="grid grid-cols-1 md:grid-cols-3  gap-8">
-        {features.map(({ icon, title, description }: FeatureProps) => (
+        {/* {features.map(({ icon, title, description }: FeatureProps) => ( */}
+        {features.map(({ icon, title }: FeatureProps) => (
           <Card
             key={title}
             className="bg-muted/50"
@@ -62,7 +89,7 @@ export const Blueprint = () => {
                 {title}
               </CardTitle>
             </CardHeader>
-            <CardContent>{description}</CardContent>
+            {/* <CardContent>{description}</CardContent> */}
           </Card>
         ))}
       </div>
