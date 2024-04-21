@@ -19,7 +19,8 @@ export const MeetYourCaptain = () => {
             Meet the coach who keeps it real. With certifications from the National Skills Development Corporation and Career Development Alliance-USA.
           </p>
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            I’m not just here to guide your career; I’m here to turn it into a blockbuster. 7+ Years, 5000+ Wins | Let’s make your journey as impressive as your goals!
+            I’m not just here to guide your career, I’m here to turn it into a blockbuster. 7+ Years of Experience, 5000+ Wins <br/>
+            Let’s make your journey as impressive as your goals!
           </p>
 
           <a
