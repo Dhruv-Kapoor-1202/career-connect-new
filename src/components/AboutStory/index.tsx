@@ -33,7 +33,7 @@ export const AboutStory = () => {
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-          Career Connect is an innovative platform that helps students and young professionals make the transition from student to the workplace smoother. We understand the importance of having the right skills and knowledge to succeed in the job market, and our mission is to provide the necessary tools and resources to bridge the gap. We offer a variety of resources to help students and young professionals make the transition. Our online career platform includes career exploration resources, career advice and guidance, job postings, and a comprehensive job search engine. 
+          Career Connect is an innovative platform that helps students and young professionals make the transition from student to the workplace smoother. We understand the importance of having the right skills and knowledge to succeed in the job market, and our mission is to provide the necessary tools and resources to bridge the gap. We offer a variety of resources to help students and young professionals make the transition. At Career Connect, we provide a number of career services that are tailored to the needs of each individual. Our services include job search support, resume and cover letter preparation, interview coaching, and career planning. 
           </p>
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
           At Career Connect, we are committed to helping students, recent graduates and professionals succeed. We work tirelessly to help create a global job market where every individual has an equal opportunity to find a job that is right for them.
