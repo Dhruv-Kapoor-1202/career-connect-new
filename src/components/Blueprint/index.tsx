@@ -39,11 +39,11 @@ export const Blueprint = () => {
     >
       {/* <h2 className="text-3xl md:text-4xl font-bold "> */}
       <h2 className="text-3xl md:text-4xl font-bold mb-8">
-        Welcome to the ultimate{" "}
+        Welcome to{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          interview success{" "}
+          Career Accelarator Program<br />
         </span>
-        blueprint
+        Where Ambitions Meet Endless Possibilities
       </h2>
       {/* <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
