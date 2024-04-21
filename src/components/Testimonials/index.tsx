@@ -17,45 +17,45 @@ interface TestimonialProps {
 const testimonials: TestimonialProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe",
-    comment: "This course is awesome!",
+    name: "Dinesh Choudhary",
+    userName: "@dinesh_choudhary",
+    comment: "We learned something new in every lecture. The passion for teaching and expertise in the subject made it easy for us to understand the subject.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe1",
+    name: "Er. Dikshant V. Jagtap",
+    userName: "@dikshant.jagtap",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "I would like to thank the wonderful faculty for guiding us on communication skills behavioural skills and many more things. It made such a difference in my attitude.",
   },
 
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe2",
+    name: "Rushikesh Kalane",
+    userName: "@rushi_kalane2",
     comment:
-      "CareerConnect helped me develop the skills I needed to land my dream job. The courses were well-structured and the instructors were very knowledgeable.",
+      "Journey from the basics of communication to personal interview and GD all you covered was fantastic. I really enjoyed your sessions. What impressed me the most was your willingness to help the students.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe3",
+    name: "Sunil Srivastav",
+    userName: "@sunil_sri21",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Learning communication skills from the mentor was a pleasent and favourable experience for me. One thing I want to mention here is that earlier I used to think that since I have no professional experience, I can never convince my recruiter on certain things but you Instilled the confidence in me to use my academic achievments to better present my capabilities.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe4",
+    name: "Jasleen",
+    userName: "@jasleen_4",
     comment:
-      "I was impressed by the variety of courses offered on CareerConnect. I was able to find exactly what I was looking for to advance my career.",
+      "Thankyou so much for giving guidance to me because of you only I got such good results in IELTS.. Thankyou so much ma'am.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe5",
+    name: "Diotima Bose",
+    userName: "@Diotima_Bose3",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .",
+      "Thankyou soo much ma'am for giving me the appropriate guidance since the begining till my exams <3",
   },
 ];
 
