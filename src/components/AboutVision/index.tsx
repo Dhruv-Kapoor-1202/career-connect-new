@@ -14,7 +14,7 @@ export const AboutVision = () => {
         </h2>
 
         <p className="text-xl text-muted-foreground">
-          We envision a future where everyone has access to the education and skills they need to thrive in the ever-evolving job market. We see CareerConnect as a catalyst for empowering individuals to unlock their full potential and achieve their career aspirations. By providing a comprehensive and accessible platform for learning, we aim to bridge the skills gap and create a world where education is a lifelong journey, not just a stepping stone.
+          We envision a future where everyone has access to the skills and professionalisim they need to thrive in the ever-evolving job market. We see CareerConnect as a catalyst for empowering individuals to unlock their full potential and achieve their career aspirations. By providing a comprehensive and accessible platform for learning, we aim to bridge the skills gap and create a world where education is a lifelong journey, not just a stepping stone.
         </p>
       </div>
     </section>
