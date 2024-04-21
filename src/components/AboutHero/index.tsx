@@ -13,7 +13,7 @@ export const AboutHero = () => {
           Education
         </span>
       </h2>
-      <div className="text-center mb-8 relative overflow-hidden w-full h-[500px] flex flex-col justify-center items-center rounded-[30px]">
+      <div className="text-center mb-8 relative overflow-hidden w-full h-[400px] md:h-[500px] flex flex-col justify-center items-center rounded-[30px]">
         <h3 className="text-4xl md:text-5xl font-extrabold text-center mb-12 text-white">
           Career{" "}
           <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
