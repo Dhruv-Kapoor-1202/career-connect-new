@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Image from "../../assets/AboutCC-pic.jpg";
 import { buttonVariants } from "../ui/button";
 
@@ -22,12 +22,12 @@ export const MeetYourCaptain = () => {
             I’m not just here to guide your career; I’m here to turn it into a blockbuster. 7+ Years, 5000+ Wins | Let’s make your journey as impressive as your goals!
           </p>
 
-          <Link
-            to="/about"
+          <a
+            href="https://about-one-rust.vercel.app/"
             className={`${buttonVariants({ variant: "default" })}`}
           >
             Learn More
-          </Link>
+          </a>
 
 
         </div>
