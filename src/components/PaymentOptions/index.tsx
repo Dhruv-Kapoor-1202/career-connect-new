@@ -14,7 +14,9 @@ const PaymentOptions = () => {
         </h2>
 
         <p className="text-xl text-muted-foreground">
-          Currently, we only accept payments through credit/debit cards. However, we are actively working on adding support for bank transfers and UPI payments in the near future. Stay tuned for updates!
+        Yes, Sure, you can do a bank transfer or UPI payment for India only using the Pay button provided below. After successful payment, you have to send a request through email at jshubhangi.official@gmail.com. 
+
+Make sure to mention the course name in the email subject and attach a screenshot of thepayment with the transaction ID. This mode of payment generally takes 24 hours to process.
         </p>
 
         {/* Second Paragraph with Light Gray Background */}
