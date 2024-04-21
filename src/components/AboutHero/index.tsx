@@ -10,7 +10,7 @@ export const AboutHero = () => {
         </span>
         with{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Education
+          Career Connect
         </span>
       </h2>
       <div className="text-center mb-8 relative overflow-hidden w-full h-[400px] md:h-[500px] flex flex-col justify-center items-center rounded-[30px]">
@@ -20,7 +20,7 @@ export const AboutHero = () => {
             Connect
           </span>
         </h3>
-        <p className="text-white mx-auto max-w-[700px] sm:text-xl">Your one-stop platform for skill development.</p>
+        <p className="text-white mx-auto max-w-[700px] sm:text-xl">Holding Your Hand from Preparation to Placement.</p>
         <img
           src={Pic}
           alt="CareerConnect - Education Platform"
