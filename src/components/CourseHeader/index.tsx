@@ -15,9 +15,9 @@ const CourseHeader = () => {
             <h1 className="text-3xl md:text-4xl font-bold text-start">Career Accelerator Program</h1>
 
             <div className='flex flex-col gap-4 justify-start items-start'>
-              <p className='text-lg md:text-xl'>Duration: 12 Weeks</p>
-              <p className='text-lg md:text-xl'>Availability: Starts May 1st</p>
-              <p className='text-lg md:text-xl'>Price: $499</p>
+              <p className='text-lg md:text-xl'>Duration: 5-6 Weeks</p>
+              <p className='text-lg md:text-xl'>Availability: Live Course</p>
+              <p className='text-lg md:text-xl'>Price: ₹19,999</p>
             </div>
 
             <Link
