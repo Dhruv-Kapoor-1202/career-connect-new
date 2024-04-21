@@ -16,7 +16,7 @@ const Enroll = () => {
               </h1>
             </div>
             <div>
-              <p className='leading-7 [&:not(:first-child)]:mt-6'>Career Connect Offers This and This and much more of this stuff. You will get access to the live classes for this course</p>
+              <p className='leading-7 [&:not(:first-child)]:mt-6'>You will get access to the live classes for this course</p>
               {/* <p className='leading-7 [&:not(:first-child)]:mt-6 '>You will get access to the live classes for this course</p> */}
 
             </div>
