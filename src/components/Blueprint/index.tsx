@@ -41,7 +41,7 @@ export const Blueprint = () => {
       <h2 className="text-3xl md:text-4xl font-bold mb-8">
         Welcome to{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Career Accelarator Program<br />
+          Career Accelerator Program<br />
         </span>
         Where Ambitions Meet Endless Possibilities
       </h2>
