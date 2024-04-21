@@ -19,22 +19,22 @@ const AboutCourse = () => {
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
         >
-          <Tick /> Master the fundamentals of web development.
+          <Tick /> Crafting a standout resume for someone just starting their career.
         </li>
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
         >
-          <Tick /> Build interactive and responsive user interfaces.
+          <Tick /> 360 Degree preparation for the interviews.
         </li>
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
         >
-          <Tick /> Create dynamic web applications using modern frameworks.
+          <Tick /> Get specific training for the company you desire to be in.
         </li>
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
         >
-          <Tick /> Prepare for a successful career in web development.
+          <Tick /> Prepare for a successful career in the field of your choice.
         </li>
       </ul>
     </section>
