@@ -20,17 +20,17 @@ const WhyThisCourse = () => {
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
         >
-          <Gift /> Learn from industry expert with real-world experience.
+          <Gift /> Immerse in interactive sessions along with hands-on skill development.
         </li>
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
         >
-          <Gift /> Gain practical skills applicable to real-world scenarios.
+          <Gift /> Receive personalized career guidance and a tailored roadmap to achieve your goals.
         </li>
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
         >
-          <Gift /> Build a strong foundation for your future career.
+          <Gift /> Move from scattered efforts to a focused approach in securing your next job.
         </li>
       </ul>
       <h3
