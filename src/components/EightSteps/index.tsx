@@ -78,16 +78,24 @@ export const EightSteps = () => {
     <>
       <section className="container text-center py-24 sm:py-32">
 
-        <h2 className="text-3xl md:text-4xl font-bold">
+        {/* <h2 className="text-3xl md:text-4xl font-bold">
           Career{" "}
           <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
             Accelerator{" "}
           </span>
           Program
-        </h2>
+        </h2> */}
+        <h2 className="text-3xl md:text-4xl font-bold mb-8">
+        Welcome to{" "}
+        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+          Career Accelerator Program<br />
+        </span>
+        {/* Where Ambitions Meet Endless Possibilities */}
+      </h2>
 
         <p className="mt-4 mb-10 text-xl text-muted-foreground">
-          Our Comprehensive 8-step process ensures that you land your dream job.
+          {/* Our Comprehensive 8-step process ensures that you land your dream job. */}
+          Where Ambitions Meet Endless Possibilities
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2  gap-8 gap-y-10">
