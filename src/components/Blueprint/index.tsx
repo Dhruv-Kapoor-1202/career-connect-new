@@ -11,7 +11,7 @@ import { Steps, Response, Presentation } from "../icons";
 interface FeatureProps {
   icon: JSX.Element;
   title: string;
-  description: string;
+  // description: string;
 }
 
 // const features: FeatureProps[] = [
@@ -39,20 +39,20 @@ const features: FeatureProps[] = [
   {
     icon: <Steps />,
     title: "Struggling with Chaotic Job Searches?",
-    description:
-      "Combines mastering your art and practicing responses.",
+    // description:
+    //   "Combines mastering your art and practicing responses.",
   },
   {
     icon: <Response />,
     title: "Feeling Lost in the Early Stages of Your Career?",
-    description:
-      "Tailor your narrative to each specific job description.",
+    // description:
+    //   "Tailor your narrative to each specific job description.",
   },
   {
     icon: <Presentation />,
     title: "Uncertain about Upskilling for Career Growth?",
-    description:
-      "Combines confidence and professional presence.",
+    // description:
+    //   "Combines confidence and professional presence.",
   }
 ];
 
