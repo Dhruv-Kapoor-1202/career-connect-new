@@ -12,21 +12,21 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <Steps />,
-    title: "Unlock Company Insights And Role Dynamics",
+    title: "Sharpen Your Skills and Answers",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Combines mastering your art and practicing responses.",
   },
   {
     icon: <Response />,
     title: "Craft Engaging Responses",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Tailor your narrative to each specific job description.",
   },
   {
     icon: <Presentation />,
-    title: "Master Your Presentation",
+    title: "Project Confidence and Polish",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Combines confidence and professional presence.",
   }
 ];
 

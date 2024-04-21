@@ -16,8 +16,9 @@ export default function Hero() {
             </h1>
             {/* <p className="mx-auto max-w-[700px] text-gray-50 md:text-xl dark:text-gray-400"> */}
             <p className="mx-auto max-w-[700px] sm:text-xl dark:text-gray-400">
-              Learn the latest technologies and frameworks to build stunning web applications. Enroll in our
-              comprehensive course today.
+              {/* Learn the latest technologies and frameworks to build stunning web applications. Enroll in our
+              comprehensive course today. */}
+              Craft your application and Ace the interview. Enroll in our comprehensive course today.
             </p>
           </div>
           <div className="flex flex-col gap-4 sm:flex-row">
