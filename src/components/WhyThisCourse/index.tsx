@@ -13,14 +13,14 @@ const WhyThisCourse = () => {
       <h3
         className="text-xl  text-muted-foreground text-start"
       >
-        This course is designed to equip you with the skills and knowledge you need to excel in your chosen field. Whether you're a beginner looking to get started or a seasoned professional wanting to level up your skills, this course has something to offer everyone.
+        This course is designed to equip you with the skills and knowledge you need to excel to get placed in your desired company. Whether you're a beginner looking to get started or a seasoned professional wanting to level up your skills, this course has something to offer everyone.
       </h3>
 
       <ul className="list-none space-y-4">
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
         >
-          <Gift /> Learn from industry experts with real-world experience.
+          <Gift /> Learn from industry expert with real-world experience.
         </li>
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
