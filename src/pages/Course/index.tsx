@@ -1,7 +1,7 @@
 import AboutCourse from "@/components/AboutCourse";
 import CourseHeader from "@/components/CourseHeader";
 import { FAQ } from "@/components/FAQ";
-import PaymentOptions from "@/components/PaymentOptions";
+// import PaymentOptions from "@/components/PaymentOptions";
 import WhyThisCourse from "@/components/WhyThisCourse";
 
 const Course = () => {
@@ -11,7 +11,7 @@ const Course = () => {
       <CourseHeader />
       <AboutCourse />
       <WhyThisCourse />
-      <PaymentOptions />
+      {/* <PaymentOptions /> */}
       <FAQ />
       {/* </section> */}
     </>
