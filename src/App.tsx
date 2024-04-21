@@ -8,6 +8,8 @@ import { Footer } from "./components/Footer";
 import { ScrollToTop } from "./components/ScrollToTop";
 import Contact from "./pages/Contact";
 
+import { SpeedInsights } from '@vercel/speed-insights/react';
+
 const App = () => {
   return (
     <>
@@ -21,6 +23,7 @@ const App = () => {
       </Routes>
       <Footer />
       <ScrollToTop />
+      <SpeedInsights />
     </>
   )
 };
