@@ -12,19 +12,19 @@ const AboutCourse = () => {
       <h3
         className="text-xl  text-muted-foreground"
       >
-        What will you learn?
+        What the course entails?
       </h3>
 
       <ul className="list-none space-y-4">
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
         >
-          <Tick /> Crafting a standout resume for someone just starting their career.
+          <Tick /> We get to know you, assessing your skills and career aspirations to tailor our approach.
         </li>
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
         >
-          <Tick /> 360 Degree preparation for the interviews.
+          <Tick /> Your resume should reflect you. We tailor it to highlight your strength and goals.
         </li>
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
@@ -34,7 +34,27 @@ const AboutCourse = () => {
         <li
           className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
         >
-          <Tick /> Prepare for a successful career in the field of your choice.
+          <Tick /> We dig through job opportunities to find the best match for your skills and ambitions
+        </li>
+        <li
+          className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
+        >
+          <Tick /> We prepare you for interviews thoroughly, covering all possible scenarios.
+        </li>
+        <li
+          className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
+        >
+          <Tick /> Get specific training for the companies you're targeting to stand out from the crowd.
+        </li>
+        <li
+          className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
+        >
+          <Tick /> Continous assessments help us identify and improve your weak spots.
+        </li>
+        <li
+          className="flex items-center justify-start gap-4 text-muted-foreground text-xl"
+        >
+          <Tick /> If you land the job great! If not, we reassess and gear up for another shot at success.
         </li>
       </ul>
     </section>
