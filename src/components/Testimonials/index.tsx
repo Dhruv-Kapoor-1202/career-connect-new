@@ -16,13 +16,14 @@ interface TestimonialProps {
 
 const testimonials: TestimonialProps[] = [
   {
-    image: "https://github.com/shadcn.png",
+    image: "DC",
     name: "Dinesh Choudhary",
     userName: "@dinesh_choudhary",
-    comment: "We learned something new in every lecture. The passion for teaching and expertise in the subject made it easy for us to understand the subject.",
+    comment:
+      "We learned something new in every lecture. The passion for teaching and expertise in the subject made it easy for us to understand the subject.",
   },
   {
-    image: "https://github.com/shadcn.png",
+    image: "DJ",
     name: "Er. Dikshant V. Jagtap",
     userName: "@dikshant.jagtap",
     comment:
@@ -30,28 +31,28 @@ const testimonials: TestimonialProps[] = [
   },
 
   {
-    image: "https://github.com/shadcn.png",
+    image: "RK",
     name: "Rushikesh Kalane",
     userName: "@rushi_kalane2",
     comment:
       "Journey from the basics of communication to personal interview and GD all you covered was fantastic. I really enjoyed your sessions. What impressed me the most was your willingness to help the students.",
   },
   {
-    image: "https://github.com/shadcn.png",
+    image: "SS",
     name: "Sunil Srivastav",
     userName: "@sunil_sri21",
     comment:
       "Learning communication skills from the mentor was a pleasent and favourable experience for me. One thing I want to mention here is that earlier I used to think that since I have no professional experience, I can never convince my recruiter on certain things but you Instilled the confidence in me to use my academic achievments to better present my capabilities.",
   },
   {
-    image: "https://github.com/shadcn.png",
+    image: "JN",
     name: "Jasleen",
     userName: "@jasleen_4",
     comment:
       "Thankyou so much for giving guidance to me because of you only I got such good results in IELTS.. Thankyou so much ma'am.",
   },
   {
-    image: "https://github.com/shadcn.png",
+    image: "DB",
     name: "Diotima Bose",
     userName: "@Diotima_Bose3",
     comment:
@@ -61,10 +62,7 @@ const testimonials: TestimonialProps[] = [
 
 export const Testimonials = () => {
   return (
-    <section
-      id="testimonials"
-      className="container py-24 sm:py-32"
-    >
+    <section id="testimonials" className="container py-24 sm:py-32">
       {/* <h2 className="text-3xl md:text-4xl font-bold"> */}
       <h2 className="text-3xl md:text-4xl font-bold pb-8">
         Discover What
@@ -88,11 +86,8 @@ export const Testimonials = () => {
             >
               <CardHeader className="flex flex-row items-center gap-4 pb-2">
                 <Avatar>
-                  <AvatarImage
-                    alt=""
-                    src={image}
-                  />
-                  <AvatarFallback>OM</AvatarFallback>
+                  <AvatarImage alt="" src={image} />
+                  <AvatarFallback>{image}</AvatarFallback>
                 </Avatar>
 
                 <div className="flex flex-col">
@@ -110,8 +105,8 @@ export const Testimonials = () => {
   );
 };
 
-
-{/* <section className="container mx-auto px-4 py-16">
+{
+  /* <section className="container mx-auto px-4 py-16">
         <h2 className="text-2xl font-bold text-center mb-8">What people are saying</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <blockquote className="border rounded-md px-6 py-4">
@@ -125,4 +120,5 @@ export const Testimonials = () => {
             <span className="text-gray-600 font-bold block mt-2">- Jane Smith, Software Engineer</span>
           </blockquote>
         </div>
-      </section> */}
+      </section> */
+}

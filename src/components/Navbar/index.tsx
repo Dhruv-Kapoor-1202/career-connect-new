@@ -24,6 +24,10 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
+    to: "/",
+    label: "Home",
+  },
+  {
     to: "/course",
     label: "Course",
   },
@@ -34,11 +38,10 @@ const routeList: RouteProps[] = [
   {
     to: "/contact",
     label: "Contact",
-  }
+  },
 ];
 
 import Logo from "../../assets/CareerConnect.svg";
-
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -51,10 +54,7 @@ export const Navbar = () => {
               to="/"
               className="ml-2 font-bold text-xl flex justify-center items-center gap-1"
             >
-              <img
-                src={Logo}
-                className="size-14 dark:hidden"
-              />
+              <img src={Logo} className="size-14 dark:hidden" />
               <span className="hidden dark:block  sm:block">CareerConnect</span>
             </Link>
           </NavigationMenuItem>
@@ -63,10 +63,7 @@ export const Navbar = () => {
           <span className="flex md:hidden">
             <ModeToggle />
 
-            <Sheet
-              open={isOpen}
-              onOpenChange={setIsOpen}
-            >
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger className="px-2">
                 <Menu
                   className="flex md:hidden h-5 w-5"
@@ -79,10 +76,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl flex justify-start items-center">
-                    <img
-                      src={Logo}
-                      className="size-14 hidden"
-                    />
+                    <img src={Logo} className="size-14 hidden" />
                     CareerConnect
                   </SheetTitle>
                 </SheetHeader>
