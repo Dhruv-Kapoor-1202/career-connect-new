@@ -13,35 +13,43 @@ interface FAQProps {
 }
 
 const FAQList: FAQProps[] = [
+  
   {
-    question: "Can I choose a flexible time to complete the career connect program?",
-    answer: "Some parts of the programs are flexible whereas, coaching sessions are scheduled, which we expect you to follow.",
+    question: "Can I make a bank Transfer or UPI  Payment?",
+    answer: "Yes, Sure, you can do a bank transfer or UPI payment for India only using the Pay button provided below. After successful payment, you have to send a request through email at jshubhangi.official@gmail.com. Make sure to mention the course name in the email subject and attach a screenshot of thepayment with the transaction ID. This mode of payment generally takes 24 hours to process.",
     value: "item-1",
   },
   {
-    question: "What is the usual timeline for seeing results and progress in my career after completing the Career Connect course?",
+    question: "Can I choose a flexible time to complete the career connect program?",
     answer:
-      "(Within 60-90 days) usual recruitment process time",
+      "Some parts of the programs are flexible whereas, coaching sessions are scheduled, which we expect you to follow.",
     value: "item-2",
   },
   {
     question:
-      "Are there any additional costs beyond the stated course charges for materials, resources, or assessments? ",
+      "What is the usual timeline for seeing results and progress in my career after completing the Career Connect course? ",
     answer:
-      "No hidden charges",
+      "(Within 60-90 days) usual recruitment process time",
     value: "item-3",
   },
   {
-    question: "Are there any discounts or promotions currently available for the Career Connect program?",
-    answer: "Yes we have discounts occassionally.",
+    question: "Are there any additional costs beyond the stated course charges for materials, resources, or assessments? ",
+    answer: "No hidden charges",
     value: "item-4",
   },
   {
     question:
-      " How does Career Connect ensure my job search is chaos-free, especially for freshers?",
+      "Are there any discounts or promotions currently available for the Career Connect program? ",
+    answer:
+      "Yes we have discounts occassionally.",
+    value: "item-5",
+  },
+  {
+    question:
+      "How does Career Connect ensure my job search is chaos-free, especially for freshers? ",
     answer:
       "A: We understand the unique challenges freshers face. At Career Connect, our method involves personalized strategies, easy-to-follow steps,, making your job search stress-free.",
-    value: "item-5",
+    value: "item-6",
   },
 ];
 

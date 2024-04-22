@@ -11,7 +11,7 @@ import { Steps, Response, Presentation } from "../icons";
 interface FeatureProps {
   icon: JSX.Element;
   title: string;
-  description: string;
+  // description: string;
 }
 
 // const features: FeatureProps[] = [
@@ -38,21 +38,21 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <Steps />,
-    title: "Sharpen Your Skills and Answers",
-    description:
-      "Combines mastering your art and practicing responses.",
+    title: "Struggling with Chaotic Job Searches?",
+    // description:
+    //   "Combines mastering your art and practicing responses.",
   },
   {
     icon: <Response />,
-    title: "Craft Engaging Responses",
-    description:
-      "Tailor your narrative to each specific job description.",
+    title: "Feeling Lost in the Early Stages of Your Career?",
+    // description:
+    //   "Tailor your narrative to each specific job description.",
   },
   {
     icon: <Presentation />,
-    title: "Project Confidence and Polish",
-    description:
-      "Combines confidence and professional presence.",
+    title: "Uncertain about Upskilling for Career Growth?",
+    // description:
+    //   "Combines confidence and professional presence.",
   }
 ];
 
@@ -65,11 +65,12 @@ export const Blueprint = () => {
     >
       {/* <h2 className="text-3xl md:text-4xl font-bold "> */}
       <h2 className="text-3xl md:text-4xl font-bold mb-8">
-        Welcome to{" "}
+        Are you {" "}
+
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Career Accelerator Program<br />
+           also? {" "}
         </span>
-        Where Ambitions Meet Endless Possibilities
+        
       </h2>
       {/* <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
@@ -84,7 +85,7 @@ export const Blueprint = () => {
             className="bg-muted/50"
           >
             <CardHeader>
-              <CardTitle className="grid gap-4 place-items-center">
+              <CardTitle className="grid gap-4 place-items-center leading-normal">
                 {icon}
                 {title}
               </CardTitle>

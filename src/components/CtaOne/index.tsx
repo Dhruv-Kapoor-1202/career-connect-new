@@ -10,14 +10,23 @@ export const CtaOne = () => {
       <div className="container lg:grid lg:grid-cols-3 place-items-center">
         <div className="lg:col-start-1 lg:col-span-2">
           {/* <h2 className="text-3xl md:text-4xl font-bold "> */}
-          <h2 className="text-3xl md:text-4xl  font-bold mb-8 lg:mb-0 ">
+          {/* <h2 className="text-3xl md:text-4xl  font-bold mb-8 lg:mb-0 ">
             Make
             Your Job Search{" "}
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
               Chaos Free {" "}
             </span>
             Today
+          </h2> */}
+          <h2 className="text-3xl md:text-4xl  font-bold mb-8 lg:mb-0 ">
+            Stop
+            knocking on {" "}
+            <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+              Hundreds  {" "}
+            </span>
+            of Doors!{/* Today */}
           </h2>
+
           {/* <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
             beatae. Ipsa tempore ipsum iste quibusdam illum ducimus eos. Quasi,

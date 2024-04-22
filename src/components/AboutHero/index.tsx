@@ -20,7 +20,7 @@ export const AboutHero = () => {
             Connect
           </span>
         </h3>
-        <p className="text-white mx-auto max-w-[700px] sm:text-xl">Holding Your Hand from Preparation to Placement.</p>
+        <p className="text-white mx-auto max-w-[700px] sm:text-xl">Where Ambition meets endless possibilities.</p>
         <img
           src={Pic}
           alt="CareerConnect - Education Platform"

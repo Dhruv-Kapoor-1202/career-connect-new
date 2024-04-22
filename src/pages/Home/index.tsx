@@ -13,9 +13,9 @@ const Home = () => {
       <AboutWebsite />
       <AboutCC />
       <Blueprint />
-      <MeetYourCaptain />
       <CtaOne />
       <EightSteps />
+      <MeetYourCaptain />
     </>
   )
 };
