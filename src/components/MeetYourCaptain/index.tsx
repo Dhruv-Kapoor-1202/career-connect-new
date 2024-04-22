@@ -31,7 +31,7 @@ export const MeetYourCaptain = () => {
           </p>
 
           <a
-            href="https://about-one-rust.vercel.app/"
+            href="https://about.careerconnect.co.in/"
             className={`${buttonVariants({ variant: "default" })}`}
           >
             Learn More
