@@ -7,12 +7,14 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { ScrollToTop } from "./components/ScrollToTop";
 import Contact from "./pages/Contact";
+import { Toaster } from "@/components/ui/sonner";
 
-import { SpeedInsights } from '@vercel/speed-insights/react';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App = () => {
   return (
     <>
+      <Toaster />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -25,7 +27,7 @@ const App = () => {
       <ScrollToTop />
       <SpeedInsights />
     </>
-  )
+  );
 };
 
 export default App;

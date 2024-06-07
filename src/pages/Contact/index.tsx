@@ -1,27 +1,45 @@
-import { useState } from "react";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import {
+  // useRef,
+  useState,
+} from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import Pic from "@/assets/ContactUs.jpg";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
+import { toast } from "sonner";
 
 type FormDataProps = {
-  name: string,
-  email: string,
-  message: string,
-}
+  name: string;
+  email: string;
+  message: string;
+};
 
 export default function Contact() {
+  // const SERVICE_ID = "service_mk4u1vc";
+  // const TEMPLATE_ID = "template_hceo36o";
+  const SERVICE_ID = "service_60gqiic";
+  const TEMPLATE_ID = "template_rddx17e";
+  const PUBLIC_KEY = "vUP-o23g4yv-jDkMT";
+
+  // const ref = useRef();
+  // const formRef = useRef();
+  const [error, setError] = useState(false);
+  const [success, setSuccess] = useState(false);
+
   const [formData, setFormData] = useState<FormDataProps>({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = event.target;
-    setFormData(prevState => ({ ...prevState, [name]: value }));
+    setFormData((prevState) => ({ ...prevState, [name]: value }));
   };
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
@@ -30,17 +48,22 @@ export default function Contact() {
     // Replace placeholders with your actual EmailJS service ID, template ID, and user ID
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        SERVICE_ID,
+        TEMPLATE_ID,
+        // formRef.current,
         event.currentTarget,
-        'YOUR_USER_ID'
+        PUBLIC_KEY
       )
       .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-        setFormData({ name: '', email: '', message: '' });
+        console.log("SUCCESS!", response.status, response.text);
+        setFormData({ name: "", email: "", message: "" });
+        setSuccess(true);
+        toast("Message Sent");
       })
       .catch((err) => {
-        console.error('FAILED...', err);
+        console.error("FAILED...", err);
+        setError(true);
+        toast.error("Error. Could Not Send Message.");
       });
   };
 
@@ -51,7 +74,8 @@ export default function Contact() {
           <div className="grid gap-2 text-center">
             <h1 className="text-3xl font-bold">Contact Us</h1>
             <p className="text-balance text-muted-foreground">
-              Fill out the form below and we'll get back to you as soon as possible.
+              Fill out the form below and we'll get back to you as soon as
+              possible.
             </p>
           </div>
           <form onSubmit={handleSubmit}>
@@ -112,5 +136,5 @@ export default function Contact() {
         />
       </div>
     </div>
-  )
+  );
 }
