@@ -4,8 +4,17 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
-import { Step1, Step2, Step3, Step4, Step5, Step6, Step7, Step8 } from "../icons";
+} from "@/components/ui/card";
+import {
+  Step1,
+  Step2,
+  Step3,
+  Step4,
+  Step5,
+  Step6,
+  Step7,
+  Step8,
+} from "../icons";
 
 interface StepsProps {
   index: number;
@@ -66,18 +75,18 @@ const steps: StepsProps[] = [
   },
   {
     index: 8,
-    title: "No Need If You Get Hired; Otherwise Improvise & Prep For Another Opportunity",
+    title:
+      "No Need If You Get Hired; Otherwise Improvise & Prep For Another Opportunity",
     description:
       "If you land the job, congratulations! However, if you don't, we reassess your approach and gear up for another opportunity. We help you learn from the experience and improve your chances for future success.",
     icon: <Step8 />,
-  }
+  },
 ];
 
 export const EightSteps = () => {
   return (
     <>
       <section className="container text-center py-24 sm:py-32">
-
         {/* <h2 className="text-3xl md:text-4xl font-bold">
           Career{" "}
           <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
@@ -86,12 +95,13 @@ export const EightSteps = () => {
           Program
         </h2> */}
         <h2 className="text-3xl md:text-4xl font-bold mb-8">
-        Welcome to{" "}
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Career Accelerator Program<br />
-        </span>
-        {/* Where Ambitions Meet Endless Possibilities */}
-      </h2>
+          Welcome to{" "}
+          <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+            Career Accelerator Program
+            <br />
+          </span>
+          {/* Where Ambitions Meet Endless Possibilities */}
+        </h2>
 
         <p className="mt-4 mb-10 text-xl text-muted-foreground">
           {/* Our Comprehensive 8-step process ensures that you land your dream job. */}
@@ -102,12 +112,11 @@ export const EightSteps = () => {
           {steps.map(({ index, title, description, icon }: StepsProps) => (
             <Card
               key={index}
-              className="bg-muted/50 relative mt-8 flex flex-col justify-start items-center p-4 sm:p-10 duration-300 hover:bg-primary/5 hover:"
-            >
+              className="bg-muted/50 relative mt-8 flex flex-col justify-start items-center p-4 sm:p-10 duration-300 hover:bg-primary/5 hover:">
               <CardHeader className="mt-8 flex justify-center items-center pb-2">
                 {/* <div className="absolute -top-12 rounded-full w-24 h-24 bg-secondary ring flex items-center justify-center"> */}
                 <div className="absolute -top-5 rounded-full w-24 h-10 bg-primary flex items-center justify-center text-white font-bold">
-                  Step{" "}{index}
+                  Step {index}
                 </div>
                 <CardTitle className="grid gap-10 place-items-center">
                   <div className="outline-primary/50 outline flex justify-center items-center  rounded-full p-4 bg-primary/5 dark:bg-primary/10">
@@ -117,12 +126,14 @@ export const EightSteps = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-muted-foreground text-xl mt-4 mb-8 text-left sm:text-center">{description}</CardDescription>
+                <CardDescription className="text-muted-foreground text-xl mt-4 mb-8 text-left sm:text-center text-balance">
+                  {description}
+                </CardDescription>
               </CardContent>
             </Card>
           ))}
         </div>
       </section>
     </>
-  )
+  );
 };

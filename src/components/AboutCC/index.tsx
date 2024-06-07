@@ -4,7 +4,6 @@ import { Card, CardHeader, CardTitle } from "../ui/card";
 import Image from "../../assets/AboutCC-2.jpeg";
 import { Tick } from "../icons";
 
-
 interface AboutProps {
   title: string;
   description: string;
@@ -36,7 +35,6 @@ export const AboutCC = () => {
   return (
     <section className="container py-24 sm:py-32">
       <div className="grid lg:grid-cols-[1fr,1fr] gap-8 place-items-center">
-
         <img
           src={Image}
           // className="w-full  object-contain"
@@ -52,8 +50,10 @@ export const AboutCC = () => {
             </span>
           </h2>
 
-          <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Career Connect addresses early career challenges by simplifying job searches, providing tailored early-career support, and aligning upskilling with career goals.
+          <p className="text-muted-foreground text-xl mt-4 mb-8">
+            Career Connect addresses early career challenges by simplifying job
+            searches, providing tailored early-career support, and aligning
+            upskilling with career goals.
           </p>
 
           <div className="flex flex-col gap-8">
@@ -75,8 +75,6 @@ export const AboutCC = () => {
             ))}
           </div>
         </div>
-
-
       </div>
     </section>
   );
