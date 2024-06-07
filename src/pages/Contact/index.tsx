@@ -1,8 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import {
-  // useRef,
-  useState,
-} from "react";
+import { useState } from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -18,16 +14,9 @@ type FormDataProps = {
 };
 
 export default function Contact() {
-  // const SERVICE_ID = "service_mk4u1vc";
-  // const TEMPLATE_ID = "template_hceo36o";
   const SERVICE_ID = "service_60gqiic";
   const TEMPLATE_ID = "template_rddx17e";
   const PUBLIC_KEY = "vUP-o23g4yv-jDkMT";
-
-  // const ref = useRef();
-  // const formRef = useRef();
-  const [error, setError] = useState(false);
-  const [success, setSuccess] = useState(false);
 
   const [formData, setFormData] = useState<FormDataProps>({
     name: "",
@@ -57,12 +46,12 @@ export default function Contact() {
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
         setFormData({ name: "", email: "", message: "" });
-        setSuccess(true);
+        // setSuccess(true);
         toast("Message Sent");
       })
       .catch((err) => {
         console.error("FAILED...", err);
-        setError(true);
+        // setError(true);
         toast.error("Error. Could Not Send Message.");
       });
   };
