@@ -1,4 +1,4 @@
-import AboutCourse from "@/components/AboutCourse";
+// import AboutCourse from "@/components/AboutCourse";
 import CourseHeader from "@/components/CourseHeader";
 import { FAQ } from "@/components/FAQ";
 // import PaymentOptions from "@/components/PaymentOptions";
@@ -9,13 +9,13 @@ const Course = () => {
     <>
       {/* <section className="container text-center py-24 "> */}
       <CourseHeader />
-      <AboutCourse />
+      {/* <AboutCourse /> */}
       <WhyThisCourse />
       {/* <PaymentOptions /> */}
       <FAQ />
       {/* </section> */}
     </>
-  )
+  );
 };
 
 export default Course;
