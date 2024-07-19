@@ -3,6 +3,7 @@ import { AboutCC } from "@/components/AboutCC";
 import { Blueprint } from "@/components/Blueprint";
 import { CtaOne } from "@/components/CtaOne";
 import { EightSteps } from "@/components/EightSteps";
+import { FAQ } from "@/components/FAQ";
 import Hero from "@/components/Hero";
 import { MeetYourCaptain } from "@/components/MeetYourCaptain";
 
@@ -16,6 +17,7 @@ const Home = () => {
       <CtaOne />
       <EightSteps />
       <MeetYourCaptain />
+      <FAQ />
     </>
   );
 };

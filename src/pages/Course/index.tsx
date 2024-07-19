@@ -1,6 +1,6 @@
 // import AboutCourse from "@/components/AboutCourse";
 import CourseHeader from "@/components/CourseHeader";
-import { FAQ } from "@/components/FAQ";
+// import { FAQ } from "@/components/FAQ";
 // import PaymentOptions from "@/components/PaymentOptions";
 import WhyThisCourse from "@/components/WhyThisCourse";
 
@@ -12,7 +12,7 @@ const Course = () => {
       {/* <AboutCourse /> */}
       <WhyThisCourse />
       {/* <PaymentOptions /> */}
-      <FAQ />
+      {/* <FAQ /> */}
       {/* </section> */}
     </>
   );
