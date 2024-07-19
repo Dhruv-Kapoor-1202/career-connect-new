@@ -19,19 +19,28 @@ const WhyThisCourse = () => {
       </h3>
 
       <ul className="list-none space-y-4">
-        <li className="flex items-center justify-start gap-4 text-muted-foreground text-xl">
-          <Gift /> Immerse in interactive sessions along with hands-on skill
-          development.
+        <li className="flex items-center justify-start gap-4 text-muted-foreground text-xl rounded-lg border bg-card shadow-sm space-y-1.5 p-6">
+          <span className="hidden sm:block">
+            <Gift />
+          </span>{" "}
+          Immerse in interactive sessions along with hands-on skill development.
         </li>
-        <li className="flex items-center justify-start gap-4 text-muted-foreground text-xl">
-          <Gift /> Receive personalized career guidance and a tailored roadmap
-          to achieve your goals.
+        <li className="flex items-center justify-start gap-4 text-muted-foreground text-xl rounded-lg border bg-card shadow-sm space-y-1.5 p-6">
+          <span className="hidden sm:block">
+            <Gift />
+          </span>{" "}
+          Receive personalized career guidance and a tailored roadmap to achieve
+          your goals.
         </li>
-        <li className="flex items-center justify-start gap-4 text-muted-foreground text-xl">
-          <Gift /> Move from scattered efforts to a focused approach in securing
-          your next job.
+        <li className="flex items-center justify-start gap-4 text-muted-foreground text-xl rounded-lg border bg-card shadow-sm space-y-1.5 p-6">
+          <span className="hidden sm:block">
+            <Gift />
+          </span>{" "}
+          Move from scattered efforts to a focused approach in securing your
+          next job.
         </li>
       </ul>
+
       <h3 className="text-xl  text-muted-foreground">
         Don't miss out on this opportunity to take your skills to the next
         level.{" "}
