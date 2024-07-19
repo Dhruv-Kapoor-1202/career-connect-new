@@ -42,6 +42,7 @@ const routeList: RouteProps[] = [
 ];
 
 import Logo from "../../assets/CareerConnect.svg";
+import LogoLight from "../../assets/cc-logo-text.jpg";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -52,10 +53,10 @@ export const Navbar = () => {
           <NavigationMenuItem className="font-bold flex mr-auto">
             <Link
               to="/"
-              className="ml-2 font-bold text-xl flex justify-center items-center gap-1"
-            >
-              <img src={Logo} className="size-14 dark:hidden" />
-              <span className="hidden dark:block  sm:block">CareerConnect</span>
+              className="ml-2 font-bold text-xl flex justify-center items-center gap-1">
+              <img src={Logo} className="h-14 dark:hidden" />
+              <img src={LogoLight} className="h-14 dark:hidden" />
+              <span className="hidden dark:block">CareerConnect</span>
             </Link>
           </NavigationMenuItem>
 
@@ -67,8 +68,7 @@ export const Navbar = () => {
               <SheetTrigger className="px-2">
                 <Menu
                   className="flex md:hidden h-5 w-5"
-                  onClick={() => setIsOpen(true)}
-                >
+                  onClick={() => setIsOpen(true)}>
                   <span className="sr-only">Menu Icon</span>
                 </Menu>
               </SheetTrigger>
@@ -86,8 +86,7 @@ export const Navbar = () => {
                       key={label}
                       to={to}
                       onClick={() => setIsOpen(false)}
-                      className={buttonVariants({ variant: "ghost" })}
-                    >
+                      className={buttonVariants({ variant: "ghost" })}>
                       {label}
                     </Link>
                   ))}
@@ -95,8 +94,7 @@ export const Navbar = () => {
                     to="/enroll"
                     className={`w-[110px] border ${buttonVariants({
                       variant: "default",
-                    })}`}
-                  >
+                    })}`}>
                     Enroll Now
                   </Link>
                 </nav>
@@ -112,8 +110,7 @@ export const Navbar = () => {
                 key={i}
                 className={`text-[17px] ${buttonVariants({
                   variant: "ghost",
-                })}`}
-              >
+                })}`}>
                 {route.label}
               </Link>
             ))}
@@ -124,8 +121,7 @@ export const Navbar = () => {
 
             <Link
               to="/enroll"
-              className={`border ${buttonVariants({ variant: "default" })}`}
-            >
+              className={`border ${buttonVariants({ variant: "default" })}`}>
               Enroll Now
             </Link>
           </div>

@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import Logo from "../../assets/CareerConnect.svg";
+import LogoLight from "../../assets/cc-logo-text.jpg";
 
 export const Footer = () => {
   return (
@@ -7,8 +9,13 @@ export const Footer = () => {
 
       <section className="container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
         <div className="col-span-full xl:col-span-2">
-          <Link to="/" className="font-bold text-xl flex">
+          {/* <Link to="/" className="font-bold text-xl flex">
             CareerConnect
+          </Link> */}
+          <Link to="/" className="font-bold text-xl flex  gap-1">
+            <img src={Logo} className="h-14 dark:hidden" />
+            <img src={LogoLight} className="h-14 dark:hidden" />
+            <span className="hidden dark:block">CareerConnect</span>
           </Link>
         </div>
 
