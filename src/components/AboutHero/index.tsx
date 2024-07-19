@@ -1,4 +1,5 @@
-import Pic from "@/assets/ContactUs.jpg"
+// import Pic from "@/assets/ContactUs.jpg"
+import Pic from "@/assets/background image1.jpg"
 
 export const AboutHero = () => {
   return (
