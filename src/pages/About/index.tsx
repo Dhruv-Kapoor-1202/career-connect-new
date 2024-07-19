@@ -13,6 +13,8 @@ const About = () => {
       {/* Story Section */}
       <AboutStory />
 
+      <AboutVision />
+
       {/* Primary CTA */}
       <AboutCta />
 
@@ -29,7 +31,7 @@ const About = () => {
       </div> */}
 
       {/* Vision Section */}
-      <AboutVision />
+      {/* <AboutVision /> */}
     </>
   )
 };
