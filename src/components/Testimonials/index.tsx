@@ -9,9 +9,10 @@ import {
 
 import DC from "../../assets/testimonials/DC.png";
 import DJ from "../../assets/testimonials/DC.jpg";
-import DB from "../../assets/testimonials/DB.jpg";
+import DB1 from "../../assets/testimonials/DBJ1.jpg";
+import DB2 from "../../assets/testimonials/DBJ2.jpg";
 import RK from "../../assets/testimonials/RK.jpg";
-import JN from "../../assets/testimonials/JIELTS.jpg";
+import JN from "../../assets/testimonials/DBJ3.jpg";
 import NP from "../../assets/testimonials/pic2.jpg";
 
 interface TestimonialProps {
@@ -24,19 +25,26 @@ interface TestimonialProps {
 
 const testimonials: TestimonialProps[] = [
   {
+    image: "RK",
+    name: "Rushikesh Kalane",
+    userName: "@rushi_kalane2",
+    comment:
+      "Journey from the basics of communication to personal interview and GD all you covered was fantastic. I really enjoyed your sessions. What impressed me the most was your willingness to help the students.",
+    img: RK,
+  },
+  {
     image: "DB",
     name: "Diotima Bose",
     userName: "@Diotima_Bose3",
     comment: "",
-    img: DB,
+    img: DB1,
   },
   {
-    image: "DC",
-    name: "Dinesh Choudhary",
-    userName: "@dinesh_choudhary",
-    comment:
-      "We learned something new in every lecture. The passion for teaching and expertise in the subject made it easy for us to understand the subject.",
-    img: DC,
+    image: "DB",
+    name: "Diotima Bose",
+    userName: "@Diotima_Bose3",
+    comment: "",
+    img: DB2,
   },
   {
     image: "DJ",
@@ -47,14 +55,6 @@ const testimonials: TestimonialProps[] = [
     img: DJ,
   },
 
-  {
-    image: "RK",
-    name: "Rushikesh Kalane",
-    userName: "@rushi_kalane2",
-    comment:
-      "Journey from the basics of communication to personal interview and GD all you covered was fantastic. I really enjoyed your sessions. What impressed me the most was your willingness to help the students.",
-    img: RK,
-  },
   {
     image: "NP",
     name: "Naila Parween",
@@ -70,6 +70,14 @@ const testimonials: TestimonialProps[] = [
     comment:
       "Thankyou so much for giving guidance to me because of you only I got such good results in IELTS.. Thankyou so much ma'am.",
     img: JN,
+  },
+  {
+    image: "DC",
+    name: "Dinesh Choudhary",
+    userName: "@dinesh_choudhary",
+    comment:
+      "We learned something new in every lecture. The passion for teaching and expertise in the subject made it easy for us to understand the subject.",
+    img: DC,
   },
 ];
 // "Thankyou soo much ma'am for giving me the appropriate guidance since the begining till my exams <3",
