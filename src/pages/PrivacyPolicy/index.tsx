@@ -1,6 +1,6 @@
 const PrivacyPolicy = () => {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center p-4 sm:p-6">
       <div className="max-w-screen-sm prose dark:prose-invert py-12 ">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
